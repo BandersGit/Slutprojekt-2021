@@ -2,7 +2,7 @@ using System;
 
 namespace Slutprojekt
 {
-    public class ARC
+    public class ARC : Clone
     {
     }
 }

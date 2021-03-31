@@ -2,7 +2,7 @@ using System;
 
 namespace Slutprojekt
 {
-    public class Heavy
+    public class Heavy : Clone
     {
     }
 }

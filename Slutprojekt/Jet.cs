@@ -2,7 +2,7 @@ using System;
 
 namespace Slutprojekt
 {
-    public class Jet
+    public class Jet : Clone
     {
     }
 }
