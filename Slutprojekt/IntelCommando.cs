@@ -2,9 +2,9 @@ using System;
 
 namespace Slutprojekt
 {
-    public class ARC : Clone
+    public class IntelCommando : Commando
     {
-        public ARC()
+        public IntelCommando()
         {
             
         }

@@ -4,5 +4,9 @@ namespace Slutprojekt
 {
     public class Heavy : Clone
     {
+        public Heavy()
+        {
+            
+        }
     }
 }

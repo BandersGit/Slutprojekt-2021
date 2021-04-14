@@ -2,11 +2,11 @@ using System;
 
 namespace Slutprojekt
 {
-    public class ARC : Clone
+    public class ATKCommando : Commando
     {
-        public ARC()
+        public ATKCommando()
         {
-            
+
         }
     }
 }

@@ -4,5 +4,10 @@ namespace Slutprojekt
 {
     public class Commando : ARC
     {
+        public Commando()
+        {
+            
+        }
+        
     }
 }
