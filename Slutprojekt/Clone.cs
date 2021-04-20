@@ -4,15 +4,16 @@ namespace Slutprojekt
 {
     public class Clone
     {
-        public int armor{ get; private set;}
-        protected int strength{ get; private set;}
-        protected int intelligence{ get; private set;}
-        protected float accuracy{ get; private set;}
+        public int armor{ get; protected set;}
+        public int strength{ get; protected set;}
+        public int intelligence{ get; protected set;}
+        public float accuracy{ get; protected set;}
 
+        
 
         public Clone()
         {
-            
+            Stats();
         }
 
         public virtual void Stats()
@@ -20,6 +21,7 @@ namespace Slutprojekt
             armor = 100;
             strength = 100;
             intelligence = 100;
+            accuracy = 100;
         }
     }
 }
