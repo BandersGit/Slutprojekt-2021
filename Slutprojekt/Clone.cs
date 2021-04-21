@@ -9,7 +9,11 @@ namespace Slutprojekt
         public int intelligence{ get; protected set;}
         public float accuracy{ get; protected set;}
 
-        
+        private string name{ get; set;}
+        public string GetName()
+        {
+            return name;
+        }
 
         public Clone()
         {
