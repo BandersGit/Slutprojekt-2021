@@ -11,10 +11,19 @@ namespace Slutprojekt
 
         public override void Stats()
         {
-            armor = 100;
-            strength = 100;
-            intelligence = 100;
-            accuracy = 100;
+            base.Stats();
+            
+            armor *= generator.Next(10, 20);
+            armor /= 10;
+
+            strength *= generator.Next(10, 20);
+            strength /= 10;
+            
+            intelligence *= generator.Next(10, 20);
+            intelligence /= 10;
+
+            accuracy *= generator.Next(10, 20);
+            accuracy /= 10;
         }
     }
 }

@@ -7,7 +7,9 @@ namespace Slutprojekt
         public int armor{ get; protected set;}
         public int strength{ get; protected set;}
         public int intelligence{ get; protected set;}
-        public float accuracy{ get; protected set;}
+        public int accuracy{ get; protected set;}
+
+        protected static Random generator = new Random();
 
         private string name{ get; set;}
         public string GetName()
