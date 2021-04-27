@@ -14,17 +14,38 @@ namespace Slutprojekt
 
         List<Clone> clones = new List<Clone>();
 
-        Clone c1 = new Clone();
-        Clone c2 = new Clone();
-        Clone c3 = new Clone();
-        Clone c4 = new Clone();
+        public Queue<string> nameQueue = new Queue<string>();
 
         public MainAlgorithm()
         {
+            Clone c1 = new Clone();
+            Clone c2 = new Clone();
+            Clone c3 = new Clone();
+            Clone c4 = new Clone();
+
             clones.Add(c1);
             clones.Add(c2);
             clones.Add(c3);
             clones.Add(c4);
+        }
+
+        public void CreateClones()
+        {
+            while (success == false)
+            {
+                Console.WriteLine("Please choose a number of 1 - 4");
+
+                numberOfClones = Console.ReadLine();
+                success = int.TryParse(numberOfClones, out numberOfClonesResult);
+
+                if (numberOfClonesResult <= 0 || numberOfClonesResult > 4)
+                {
+                    Console.WriteLine("That is not possible, please try again.");
+                    success = false;
+                    Thread.Sleep(1500);
+                    Console.Clear();
+                }
+            }
         }
 
         public void NameSetter()
@@ -46,23 +67,19 @@ namespace Slutprojekt
             }
         }
 
-        public void CreateClones()
+        public void NameQueuer()
         {
-            while (success == false)
+            for (int cloneNumber = 0; cloneNumber < numberOfClonesResult; cloneNumber++)
             {
-                Console.WriteLine("Please choose a number of 1 - 4");
+                 nameQueue.Enqueue(names[cloneNumber]);
+            }
 
-                numberOfClones = Console.ReadLine();
-                success = int.TryParse(numberOfClones, out numberOfClonesResult);
-
-                if (numberOfClonesResult <= 0 || numberOfClonesResult > 4)
-                {
-                    Console.WriteLine("That is not possible, please try again.");
-                    success = false;
-                    Thread.Sleep(1500);
-                    Console.Clear();
-                }
+            for (int cloneNumber = 0; cloneNumber < numberOfClonesResult; cloneNumber++)
+            {
+                 nameQueue.Dequeue();
             }
         }
+
+        
     }
 }

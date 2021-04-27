@@ -13,8 +13,8 @@ namespace Slutprojekt
         {
             armor = 100;
             strength = 100;
-            intelligence = 100;
-            accuracy = 100;
+            intelligence = 200;
+            accuracy = 200;
         }
     }
 }

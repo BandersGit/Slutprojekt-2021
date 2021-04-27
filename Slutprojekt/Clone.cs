@@ -12,14 +12,15 @@ namespace Slutprojekt
         protected static Random generator = new Random();
 
         private string name{ get; set;}
-        public string GetName()
-        {
-            return name;
-        }
 
         public Clone()
         {
             Stats();
+        }
+
+        public string GetName()
+        {
+            return name;
         }
 
         public virtual void Stats()
