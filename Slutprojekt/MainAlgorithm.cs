@@ -42,10 +42,13 @@ namespace Slutprojekt
                 {
                     Console.WriteLine("That is not possible, please try again.");
                     success = false;
-                    Thread.Sleep(1500);
+                    Thread.Sleep(1000);
                     Console.Clear();
                 }
             }
+
+            Thread.Sleep(1000);
+            Console.Clear();
         }
 
         public void NameSetter()
@@ -60,6 +63,9 @@ namespace Slutprojekt
             {
                 clones.RemoveAt(remove);
             }
+            
+            Thread.Sleep(1000);
+            Console.Clear();
         }
 
         public void NameQueuer()
