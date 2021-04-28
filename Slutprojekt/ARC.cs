@@ -13,17 +13,17 @@ namespace Slutprojekt
         {
             base.Stats();
             
-            armor *= generator.Next(10, 20);
-            armor /= 10;
+            Armor *= generator.Next(10, 20);
+            Armor /= 10;
 
-            strength *= generator.Next(10, 20);
-            strength /= 10;
+            Strength *= generator.Next(10, 20);
+            Strength /= 10;
             
-            intelligence *= generator.Next(10, 20);
-            intelligence /= 10;
+            Intelligence *= generator.Next(10, 20);
+            Intelligence /= 10;
 
-            accuracy *= generator.Next(10, 20);
-            accuracy /= 10;
+            Accuracy *= generator.Next(10, 20);
+            Accuracy /= 10;
         }
     }
 }

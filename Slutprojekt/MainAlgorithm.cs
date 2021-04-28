@@ -6,13 +6,13 @@ namespace Slutprojekt
 {
     public class MainAlgorithm
     {
-        string numberOfClones;
-        int numberOfClonesResult;
-        bool success = false;
+        private string numberOfClones;
+        private int numberOfClonesResult;
+        private bool success = false;
 
-        List<string> names = new List<string>();
+        private List<string> names = new List<string>();
 
-        List<Clone> clones = new List<Clone>();
+        public List<Clone> clones = new List<Clone>();
 
         public Queue<string> nameQueue = new Queue<string>();
 

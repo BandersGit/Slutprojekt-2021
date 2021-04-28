@@ -11,10 +11,10 @@ namespace Slutprojekt
 
         public override void Stats()
         {
-            armor = 100;
-            strength = 100;
-            intelligence = 200;
-            accuracy = 200;
+            Armor = 100;
+            Strength = 100;
+            Intelligence = 200;
+            Accuracy = 200;
         }
     }
 }

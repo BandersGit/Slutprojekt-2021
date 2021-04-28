@@ -1,0 +1,145 @@
+<Project>
+  <Name>Slutprojekt</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CloneBattle</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Clone</Name>
+        <Access>Public</Access>
+        <Location left="1420" top="12" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected static Random generator</Member>
+        <Member type="Constructor">public Clone()</Member>
+        <Member type="Method">public string GetName()</Member>
+        <Member type="Method">public virtual void Stats()</Member>
+        <Member type="Property">public int Armor { get; protected set; }</Member>
+        <Member type="Property">public int Strength { get; set; }</Member>
+        <Member type="Property">public int Intelligence { get; set; }</Member>
+        <Member type="Property">public int Accuracy { get; set; }</Member>
+        <Member type="Property">private string Name { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ARC</Name>
+        <Access>Public</Access>
+        <Location left="1578" top="377" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public ARC()</Member>
+        <Member type="Method">public override void Stats()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Commando</Name>
+        <Access>Public</Access>
+        <Location left="1272" top="377" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Commando()</Member>
+        <Member type="Method">public override void Stats()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ATKCommando</Name>
+        <Access>Public</Access>
+        <Location left="1122" top="711" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public ATKCommando()</Member>
+        <Member type="Method">public override void Stats()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>IntelCommando</Name>
+        <Access>Public</Access>
+        <Location left="1420" top="711" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public IntelCommando()</Member>
+        <Member type="Method">public override void Stats()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BattleDroid</Name>
+        <Access>Public</Access>
+        <Location left="1916" top="12" />
+        <Size width="207" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected Dictionary&lt;string, int&gt; enemyStats</Member>
+        <Member type="Constructor">public BattleDroid()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SuperBattleDroid</Name>
+        <Access>Public</Access>
+        <Location left="1916" top="377" />
+        <Size width="207" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public SuperBattleDroid()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainAlgorithm</Name>
+        <Access>Public</Access>
+        <Location left="906" top="10" />
+        <Size width="174" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string numberOfClones</Member>
+        <Member type="Field">private int numberOfClonesResult</Member>
+        <Member type="Field">private bool sucess</Member>
+        <Member type="Field">private List&lt;string&gt; names</Member>
+        <Member type="Field">public List&lt;Clone&gt; clones</Member>
+        <Member type="Field">public Queue&lt;string&gt; nameQueue</Member>
+        <Member type="Constructor">public MainAlgorithm()</Member>
+        <Member type="Method">public void CreateClones()</Member>
+        <Member type="Method">public void NameSetter()</Member>
+        <Member type="Method">public void NameQueuer()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="4" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="6" second="5">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
