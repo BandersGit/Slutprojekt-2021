@@ -12,7 +12,6 @@
         <Collapsed>False</Collapsed>
         <Member type="Field">protected static Random generator</Member>
         <Member type="Constructor">public Clone()</Member>
-        <Member type="Method">public string GetName()</Member>
         <Member type="Method">public virtual void Stats()</Member>
         <Member type="Property">public int Armor { get; protected set; }</Member>
         <Member type="Property">public int Strength { get; set; }</Member>

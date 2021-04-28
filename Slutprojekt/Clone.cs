@@ -18,11 +18,6 @@ namespace Slutprojekt
             Stats();
         }
 
-        public string GetName()
-        {
-            return Name;
-        }
-
         public virtual void Stats()
         {
             Armor = 100;

@@ -60,23 +60,18 @@ namespace Slutprojekt
             {
                 clones.RemoveAt(remove);
             }
-
-            for (int cloneNumber = 0; cloneNumber < numberOfClonesResult; cloneNumber++)
-            {
-                 names[cloneNumber] = clones[cloneNumber].GetName();
-            }
         }
 
         public void NameQueuer()
         {
             for (int cloneNumber = 0; cloneNumber < numberOfClonesResult; cloneNumber++)
             {
-                 nameQueue.Enqueue(names[cloneNumber]);
+                nameQueue.Enqueue(names[cloneNumber]);
             }
 
             for (int cloneNumber = 0; cloneNumber < numberOfClonesResult; cloneNumber++)
             {
-                 nameQueue.Dequeue();
+                Console.WriteLine(nameQueue.Dequeue());
             }
         }
 
