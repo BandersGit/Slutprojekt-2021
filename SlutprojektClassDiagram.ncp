@@ -7,7 +7,7 @@
       <Entity type="Class">
         <Name>Clone</Name>
         <Access>Public</Access>
-        <Location left="1420" top="12" />
+        <Location left="570" top="12" />
         <Size width="174" height="230" />
         <Collapsed>False</Collapsed>
         <Member type="Field">protected static Random generator</Member>
@@ -22,7 +22,7 @@
       <Entity type="Class">
         <Name>ARC</Name>
         <Access>Public</Access>
-        <Location left="1578" top="377" />
+        <Location left="728" top="377" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Constructor">public ARC()</Member>
@@ -32,7 +32,7 @@
       <Entity type="Class">
         <Name>Commando</Name>
         <Access>Public</Access>
-        <Location left="1272" top="377" />
+        <Location left="422" top="377" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Constructor">public Commando()</Member>
@@ -42,7 +42,7 @@
       <Entity type="Class">
         <Name>ATKCommando</Name>
         <Access>Public</Access>
-        <Location left="1122" top="711" />
+        <Location left="272" top="711" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Constructor">public ATKCommando()</Member>
@@ -52,7 +52,7 @@
       <Entity type="Class">
         <Name>IntelCommando</Name>
         <Access>Public</Access>
-        <Location left="1420" top="711" />
+        <Location left="570" top="711" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Constructor">public IntelCommando()</Member>
@@ -62,7 +62,7 @@
       <Entity type="Class">
         <Name>BattleDroid</Name>
         <Access>Public</Access>
-        <Location left="1916" top="12" />
+        <Location left="1066" top="12" />
         <Size width="207" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">protected Dictionary&lt;string, int&gt; enemyStats</Member>
@@ -72,7 +72,7 @@
       <Entity type="Class">
         <Name>SuperBattleDroid</Name>
         <Access>Public</Access>
-        <Location left="1916" top="377" />
+        <Location left="1066" top="377" />
         <Size width="207" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Constructor">public SuperBattleDroid()</Member>
@@ -81,7 +81,7 @@
       <Entity type="Class">
         <Name>MainAlgorithm</Name>
         <Access>Public</Access>
-        <Location left="906" top="10" />
+        <Location left="56" top="10" />
         <Size width="174" height="247" />
         <Collapsed>False</Collapsed>
         <Member type="Field">private string numberOfClones</Member>
@@ -99,40 +99,30 @@
     </Entities>
     <Relationships>
       <Relationship type="Association" first="4" second="2">
-        <Label>
-        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="3" second="2">
-        <Label>
-        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="1" second="0">
-        <Label>
-        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="2" second="0">
-        <Label>
-        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Association</AssociationType>
       </Relationship>
       <Relationship type="Association" first="6" second="5">
-        <Label>
-        </Label>
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
