@@ -4,7 +4,7 @@ namespace Slutprojekt
 {
     public class Commando : ARC
     {
-        public Commando()
+        public Commando() //Constructor that runs Stats method that does the same thing as the one in the ARC class
         {
             Stats();
         }
@@ -13,16 +13,16 @@ namespace Slutprojekt
         {
             base.Stats();
             
-            Armor *= generator.Next(10, 20);
+            Armor *= generator.Next(11, 21);
             Armor /= 10;
 
-            Strength *= generator.Next(10, 20);
+            Strength *= generator.Next(11, 21);
             Strength /= 10;
             
-            Intelligence *= generator.Next(10, 20);
+            Intelligence *= generator.Next(11, 21);
             Intelligence /= 10;
 
-            Accuracy *= generator.Next(10, 20);
+            Accuracy *= generator.Next(11, 21);
             Accuracy /= 10;
         }
         

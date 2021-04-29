@@ -4,12 +4,12 @@ namespace Slutprojekt
 {
     public class ATKCommando : Commando
     {
-        public ATKCommando()
+        public ATKCommando() //Constructor that calls on Stats
         {
             Stats();
         }
 
-        public override void Stats()
+        public override void Stats() //No random values set this time, just some boosted stats other less. 
         {
             
             Armor = 200;

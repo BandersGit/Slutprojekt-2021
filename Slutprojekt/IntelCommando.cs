@@ -4,12 +4,12 @@ namespace Slutprojekt
 {
     public class IntelCommando : Commando
     {
-        public IntelCommando()
+        public IntelCommando() //Constructor that runs Stats
         {
             Stats();
         }
 
-        public override void Stats()
+        public override void Stats() //Again no random values, just buffs in different areas to ATK
         {
             Armor = 100;
             Strength = 100;

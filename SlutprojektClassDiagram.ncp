@@ -8,7 +8,7 @@
         <Name>Clone</Name>
         <Access>Public</Access>
         <Location left="1420" top="12" />
-        <Size width="162" height="230" />
+        <Size width="174" height="230" />
         <Collapsed>False</Collapsed>
         <Member type="Field">protected static Random generator</Member>
         <Member type="Constructor">public Clone()</Member>
@@ -17,7 +17,6 @@
         <Member type="Property">public int Strength { get; set; }</Member>
         <Member type="Property">public int Intelligence { get; set; }</Member>
         <Member type="Property">public int Accuracy { get; set; }</Member>
-        <Member type="Property">private string Name { get; set; }</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
