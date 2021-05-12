@@ -17,9 +17,9 @@ namespace Slutprojekt
         public Queue<string> nameQueue = new Queue<string>(); //A queue which purpose it is to queue up the names of the clones for easier writing of them.
 
         public MainAlgorithm() //Constructor that creates the "max" number of clones and adds them to their List
-        {
+        {   
             Clone c1 = new Clone();
-            Clone c2 = new Clone();
+            Clone c2 = new Clone(); //Create clones inside method instead, use for loop, same number of clones the user says.
             Clone c3 = new Clone();
             Clone c4 = new Clone();
 

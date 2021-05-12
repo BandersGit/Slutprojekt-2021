@@ -10,6 +10,7 @@ namespace Slutprojekt
         public int Accuracy{ get; protected set;}
 
         protected static Random generator = new Random(); //Static generator that can be used in all of the subclasses to Clone
+        
         public Clone() //Constructor that runs the Stats method that applies values to stats 
         {
             Stats();
